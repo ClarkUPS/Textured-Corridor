@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Corridor",
+            "request": "launch",
+            "mainClass": "Corridor",
+            "projectName": "HW4 Textured Corridor_13d3e0e3",
+            "vmArgs": "--add-exports java.desktop/sun.awt=ALL-UNNAMED -Dsun.java2d.d3d=false -Dsun.java2d.uiScale=1",
+            "args": "0 -0.5 1 50 Textures/wood.png Textures/stone.png Textures/metal.png"
+        }
+    ]
+}
